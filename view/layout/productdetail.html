@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            color: #fff;
+            text-align: center;
+            background-color: #316b7d;
+            padding: 10px;
+        }
+
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-detail {
+            display: flex;
+            align-items: center;
+        }
+
+        .product-image {
+            flex: 1;
+            max-width: 50%;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-info {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        .product-info h2 {
+            color: #316b7d;
+        }
+
+        .product-info p {
+            color: #666;
+        }
+
+        .order-button {
+            background-color: #316b7d;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .related-products {
+            margin-top: 40px;
+        }
+
+        .related-products h3 {
+            color: #316b7d;
+        }
+
+        .related-products .product {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .related-products .product img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .related-products .product-info {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #316b7d;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chi Tiết Sản Phẩm</h1>
+    </header>
+    <div class="container">
+        <div class="product-detail">
+            <div class="product-image">
+                <img src="img/hinh1.webp" alt="Product 1">
+            </div>
+            <div class="product-info">
+                <h2>Tên Sản Phẩm</h2>
+                <p>Mô tả chi tiết về sản phẩm. Sản phẩm này có những đặc điểm nổi bật và phù hợp cho...</p>
+                <p>Giá: $99.99</p>
+                <button class="order-button">Đặt Hàng</button>
+            </div>
+        </div>
+
+        <div class="related-products">
+            <h3>Sản Phẩm Liên Quan</h3>
+            <div class="product">
+                <div class="product-image">
+                    <img src="img/hinh2.webp" alt="Product 2">
+                </div>
+                <div class="product-info">
+                    <h4>Tên Sản Phẩm 2</h4>
+                    <p>Giá: $79.99</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="img/hinh3.webp" alt="Product 3">
+                </div>
+                <div class="product-info">
+                    <h4>Tên Sản Phẩm 3</h4>
+                    <p>Giá: $89.99</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <footer>&copy; 2023 Tên Công Ty</footer>
+</body>
+</html>

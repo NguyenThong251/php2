@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+.bg-primaryy {
+  background-color: #316b7d !important;
+}
+.bg-secondaryy {
+  background-color: #295f6f !important;
+}
+.bg-third {
+  background-color: rgba(203, 211, 217, 0.2666666667);
+}
+.cursor {
+  cursor: pointer;
+}
+.order-button {
+  padding: 10px 40px 10px 40px !important;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.2s linear !important;
+}
+
+.order-button:hover {
+  background-color: #1f5160 !important;
+  transition: all 0.2s linear !important;
+}
